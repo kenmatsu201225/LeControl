@@ -15,4 +15,16 @@
   padding:15px 0 15px 0;
   box-sizing: border-box;
 }
+header>.logo {justify-content:center;}
+header>.logo>.mnavi{display: none;}
+
+
+/*フッターエリア*/
+footer>.logo{justify-content:center;flex-wrap: wrap;}
+footer>.logo>.address{
+  width: 100%;
+  text-align: center;
+  margin-left: 60px;
+  padding-top: 0px;}
 }
+footer>.logo>.address>p{font-size: 14px;line-height: 16px;}
