@@ -1,0 +1,18 @@
+@media screen and (max-width:768px){
+/*ナビゲーションエリア*/
+.flex_menu{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(70,61,52,0.95);
+}
+.flex_menu>li{
+  width: 50%;
+  text-align: center;
+  list-style: none;
+  flex: auto;
+  cursor: pointer;
+  padding:15px 0 15px 0;
+  box-sizing: border-box;
+}
+}

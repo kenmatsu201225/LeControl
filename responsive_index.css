@@ -1,0 +1,45 @@
+/*タブレット用*/
+@media screen and (max-width:1024px){
+.concept_wrapper .concept_message > h2.concept_message_title{font-size: 16px;}
+.concept_wrapper .concept_message > .concept_message_contents{font-size: 12px;}
+.concept_wrapper .concept_list>.concept{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding:0 0 10px 10px;
+}
+.concept_wrapper .concept_list>.concept>img{width: 100%;height: 200px;}
+}
+
+/*スマホ用*/
+@media screen and (max-width:768px){
+  /*コンセプトエリア*/
+.concept_wrapper .concept_message > h2.concept_message_title{font-size: 15px;}
+.concept_wrapper .concept_picture{
+  width: 100%;
+  clear: right;
+}
+.concept_wrapper .concept_picture img{
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+.concept_wrapper .concept_message{
+  width:100%;
+  padding:0 20px 0 10px;
+  float: left;
+  box-sizing: border-box;
+  margin-top:10px;
+}
+.concept_wrapper .concept_message > h2.concept_message_title{
+  text-align: center;
+}
+.concept_wrapper .concept_list>.concept{
+  width: 100%;
+  clear: left;
+  box-sizing: border-box;
+  padding:0 0 10px 10px;
+}
+.concept_wrapper .concept_list>.concept>img{width: 100%;height: 300px;}
+.concept_wrapper .concept_list>.concept>.concept_contents{height: 40px;}
+}

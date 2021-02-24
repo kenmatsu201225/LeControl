@@ -1,0 +1,63 @@
+.contact_wrapper{height: auto;background-color:black;}
+.contact_wrapper .contact_message{
+  color: white;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  line-height: 18px;
+  opacity: 0.8;
+}
+.input_form{
+  width: 90%;
+  font-size: 13px;
+  margin:0 5% 5px 5%;
+}
+.input_form>.kanji,.mail,.phone,.question_type,.question_sentence{
+  width: 15%;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-right: 3px;
+}
+.input_form>.require{
+  width: 5%;
+  display: inline-block;
+  background-color: #FFD700;
+  border-radius: 3px;
+  padding:2px;
+  text-align: center;
+  margin-right: 3px;
+}
+.input_form>.no_require{
+  width: 5%;
+  display: inline-block;
+  background-color: rgba(238,238,238,1.0);
+  border-radius: 3px;
+  padding:2px;
+  text-align: center;
+  margin-right: 3px;
+}
+.input_form>.name_form{
+  width: 75%;
+  padding:15px 0 15px 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.text_middle>span{
+  vertical-align:top;
+  margin-top: 20px;
+}
+.form_btn{text-align: center;padding:20px 0 20px 0;}
+.send_btn{
+  color: white;
+  font-size: 13px;
+  background-color: red;
+  box-shadow: 0px 2px red;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  padding:10px 60px 10px 60px;
+  letter-spacing: 1.2px;
+}
+.send_btn:hover{opacity: 1.0;}
+.send_btn:active{box-shadow: none;position: relative;top:2px;}

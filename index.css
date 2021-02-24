@@ -1,0 +1,89 @@
+/*背景画像エリア*/
+.bkImage{
+    width: 100%;
+    height:500px;
+    background-image:url('/Users/kei/Desktop/LeControl/img/bkImage.png');
+    background-size:cover;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+  .bkImage>h3{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    padding-top: 50px;
+    opacity: 0.8;
+  }
+  .bkImage>p{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.0px;
+    margin-top: 10px;
+    opacity: 0.7;
+  }
+  
+  /*コンセプトエリア*/
+  .concept_wrapper{
+    width: 100%;
+    height:auto;
+    background-color: black;
+    padding: 50px 0 50px 0;
+  }
+  .concept_wrapper .concept_message{
+    width:50%;
+    padding:0 20px 0 10px;
+    float: left;
+    box-sizing: border-box;
+    margin-top:10px;
+  }
+  .concept_wrapper .concept_message > h2.concept_message_title{
+    color: goldenrod;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.8;
+    letter-spacing: 1.1px;
+    font-family: "Kokoro", cursive;
+    margin-bottom: 20px;
+  }
+  .concept_wrapper .concept_message > .concept_message_contents{
+    color:goldenrod;
+    font-size: 13px;
+    opacity: 0.7;
+    line-height: 19px;
+  }
+  .concept_wrapper .concept_picture{width: 50%;float: right;}
+  .concept_wrapper .concept_picture img{width: 100%;height: auto;opacity: 0.8;}
+  .concept_wrapper .title{
+    border-top: 1px solid white;
+    text-align: center;
+    margin-top:20px;
+    padding:20px 0 20px 0;
+    opacity: 0.5;
+  }
+  .concept_wrapper .title>p{
+    color: gold;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .concept_wrapper .concept_list>.concept{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+  .concept_wrapper .concept_list>.concept>p.concept_title{
+    font-size: 12px;
+    color: white;
+    opacity: 0.7;
+    background-color: #463D34;
+    padding:5px 0 5px 0;
+    text-align: center;
+  }
+  .concept_wrapper .concept_list>.concept>img{width: 100%;height: 130px;}
+  .concept_wrapper .concept_list>.concept>.concept_contents{
+    height: 65px;
+    font-family: "Arial", "メイリオ";
+    background-color: white;
+    opacity: 0.8;
+    padding:10px 5px 10px 5px;
+  }

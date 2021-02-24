@@ -1,0 +1,65 @@
+/*共通エリア*/
+.clear{clear:left;}
+.clear_all{clear:left; clear:right;}
+.container{width: 95%;margin:0 auto;}
+p{font-size: 12px;}
+
+/*ヘッダーエリア*/
+header{width:100%;background-color: black;}
+header>.logo{width:85%;float: left;}
+header>.logo>a{text-decoration: none;}
+header>.logo>a>img{
+  height: 60px;
+  margin-left: 20px;
+  float: left;
+}
+header>.logo>a>p{
+  font-size: 22px;
+  color: white;
+  margin-top: 16px;
+  font-family: 'Amatic SC', cursive;
+}
+header>.mnavi{
+  width:15%;
+  float: left;
+  margin-top: 22px;
+}
+header>.mnavi>i{font-size: 10px;font-weight: bold;}
+
+/*ナビゲーションエリア*/
+.flex_menu{
+  width: 100%;
+  display: flex;
+  background: rgba(70,61,52,0.95);
+}
+.flex_menu>li{
+  text-align: center;
+  list-style: none;
+  flex: auto;
+  cursor: pointer;
+  padding:15px 0 15px 0;
+}
+.flex_menu>li:hover{background-color: rgba(70,61,52,0.99);}
+.flex_menu>li>a{color: white;text-decoration: none;}
+.flex_menu>li>a>p.ja{font-size: 13px;opacity: 0.6;}
+.flex_menu>li>a>p.en{font-size: 11px;opacity: 0.6;margin-top: 3px;}
+
+/*フッターエリア*/
+footer{
+  width: 100%;
+  height: auto;
+  color:  #B69220;
+  background:black;
+  opacity: 0.9;
+}
+footer .logo{width:50%;float: left;}
+footer .logo>a{text-decoration: none;}
+footer .logo>a>img{height: 60px;float: left;}
+footer .logo>a>p{
+  font-size: 22px;
+  color: white;
+  margin-top: 16px;
+  font-family: 'Amatic SC', cursive;
+}
+footer .address{padding-top: 14px;float: right;margin-bottom: 10px;}
+footer .address >p{font-size: 12px;line-height: 16px;opacity: 0.8;}
