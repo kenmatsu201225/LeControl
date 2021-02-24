@@ -2,7 +2,7 @@
 .bkImage{
     width: 100%;
     height:500px;
-    background-image:url('/Users/kei/Desktop/LeControl/img/bkImage.png');
+    background-image:url('img/bkImage.png');
     background-size:cover;
     text-align: center;
     font-family: 'Amatic SC', cursive;
