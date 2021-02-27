@@ -1,4 +1,6 @@
 @media screen and (max-width:768px){
+/*ヘッダーエリア*/
+header>.logo>.logo_img{margin-right: 0px;width:50px;}
 /*ナビゲーションエリア*/
 .flex_menu{
   width: 100%;
@@ -25,6 +27,10 @@ footer>.logo>.address{
   width: 100%;
   text-align: center;
   margin-left: 60px;
-  padding-top: 0px;}
+  padding-top: 0px;
 }
-footer>.logo>.address>p{font-size: 14px;line-height: 16px;}
+footer>.logo>.logo_img{margin-right: 0px;width:50px;}
+footer>.logo>.address>p{font-size: 12px;line-height: 16px;}
+footer>.logo>.address{margin-top: 5px;}
+
+}

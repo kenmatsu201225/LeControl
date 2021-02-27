@@ -58,8 +58,4 @@ footer>.logo>.logo_title>p{
   margin-top: 16px;
   font-family: 'Amatic SC', cursive;
 }
-footer>.logo>.address{
-  padding: 14px 0 10px 0;
-  margin-left: auto;
-  margin-right: 10px;
-}
+footer>.logo>.address{margin: 14px 10px 10px auto;}

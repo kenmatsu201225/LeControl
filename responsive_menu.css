@@ -1,0 +1,23 @@
+/*タブレット用*/
+@media screen and (max-width:1024px){
+/*その他メニューエリア*/
+.other_menu_list{width: 100%;height: auto;}
+.other_menu_list .other_menu{width: 50%;float: left;padding: 0 10px 20px 0;box-sizing: border-box;}
+}
+
+/*スマホ用*/
+@media screen and (max-width:768px){
+/*シェフのオススメメニューエリア*/
+ul.menu_list>li{display: block;}
+ul.menu_list>li>.photo{width: 100%;}
+ul.menu_list>li>.photo>img{height: 300px;}
+ul.menu_list>li>.menu{width: 100%;padding-bottom: 20px;}   
+ul.menu_list>li>.menu>.menu_title{text-align: center;} 
+ul.menu_list>li:nth-child(odd) .menu{padding-right: 0;}
+ul.menu_list>li:nth-child(even) .menu{padding-left: 0;}
+
+/*その他メニューエリア*/
+.other_menu_list{width: 100%;height: auto;}
+.other_menu_list .other_menu{width: 100%;float: left;padding: 0 0 20px 0;box-sizing: border-box;}
+.other_menu_list .other_menu>img{width: 100%;height: 300px;}
+}
