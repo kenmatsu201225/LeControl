@@ -1,5 +1,5 @@
 /*スマホ入力時に拡大しない*/
-input[type=text] {font-size: 16px;}
+input{font-size: 16px;}
 /*ios用セレクトボックス*/
 select {
   /* 👇デフォルトのスタイルを解除 */

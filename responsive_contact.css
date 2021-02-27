@@ -1,5 +1,8 @@
 /*スマホ用*/
 @media screen and (max-width:768px){
+/*スマホ入力時に拡大しない*/
+input{font-size: 16px;}
+
 .input_form{margin-bottom: 10px;}
 .input_form>.kanji,.mail,.phone,.question_type,.question_sentence{
   width: auto;
