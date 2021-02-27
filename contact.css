@@ -7,16 +7,16 @@
   opacity: 0.8;
 }
 .input_form{
-  width: 90%;
+  width: 100%;
   font-size: 13px;
-  margin:0 5% 5px 5%;
+  margin-bottom:5px;
 }
 .input_form>.kanji,.mail,.phone,.question_type,.question_sentence{
   width: 15%;
   color: white;
   text-align: center;
   display: inline-block;
-  margin-right: 3px;
+  box-sizing: border-box;
 }
 .input_form>.require{
   width: 5%;
@@ -25,7 +25,7 @@
   border-radius: 3px;
   padding:2px;
   text-align: center;
-  margin-right: 3px;
+  box-sizing: border-box;
 }
 .input_form>.no_require{
   width: 5%;
@@ -34,14 +34,18 @@
   border-radius: 3px;
   padding:2px;
   text-align: center;
-  margin-right: 3px;
+  box-sizing: border-box;
 }
 .input_form>.name_form{
   width: 75%;
   padding:15px 0 15px 5px;
   border: 1px solid gray;
   border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
 }
+
+
 .text_middle>span{
   vertical-align:top;
   margin-top: 20px;
@@ -50,8 +54,8 @@
 .send_btn{
   color: white;
   font-size: 13px;
-  background-color: red;
-  box-shadow: 0px 2px red;
+  background-color: #800000;
+  box-shadow: 0px 2px #800000;
   display: inline-block;
   text-align: center;
   border: 0;

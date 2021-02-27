@@ -1,0 +1,23 @@
+/*スマホ用*/
+@media screen and (max-width:768px){
+.input_form{margin-bottom: 15px;}
+.input_form>.kanji,.mail,.phone,.question_type,.question_sentence{
+  width: auto;
+  text-align: left;
+  padding-left:15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+.input_form>.require{
+  width: auto;
+  padding:2px 5px 2px 5px;
+  margin-left: 8px;
+}
+.input_form>.no_require{
+  width: auto;
+  padding:2px 5px 2px 5px;
+  margin-left: 8px;
+}
+.input_form>.name_form{width: 95%;}
+.text_middle>span{margin-top: 0px;}
+}
