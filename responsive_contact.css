@@ -1,6 +1,6 @@
 /*スマホ用*/
 @media screen and (max-width:768px){
-.input_form{margin-bottom: 15px;}
+.input_form{margin-bottom: 10px;}
 .input_form>.kanji,.mail,.phone,.question_type,.question_sentence{
   width: auto;
   text-align: left;
